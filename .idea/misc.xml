@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/skywalking_springmvc" />
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/java_agent_demo/pom.xml" />
+        <option value="$PROJECT_DIR$/java_agent_user/pom.xml" />
+        <option value="$PROJECT_DIR$/skywalking_alarm/pom.xml" />
+        <option value="$PROJECT_DIR$/skywalking_dubbo_consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/skywalking_dubbo_provider/pom.xml" />
+        <option value="$PROJECT_DIR$/skywalking_mysql/pom.xml" />
+        <option value="$PROJECT_DIR$/skywalking_plugins/pom.xml" />
+        <option value="$PROJECT_DIR$/skywalking_springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/skywalking_springmvc/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

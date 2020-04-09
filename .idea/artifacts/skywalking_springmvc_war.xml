@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="skywalking_springmvc:war">
+    <output-path>$PROJECT_DIR$/skywalking_springmvc/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>skywalking_springmvc</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="skywalking_springmvc-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="skywalking_springmvc:war exploded" />
+    </root>
+  </artifact>
+</component>

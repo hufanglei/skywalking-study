@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="skywalking_dubbo_provider" />
+        <module name="skywalking_alarm" />
+        <module name="java_agent_user" />
+        <module name="skywalking_plugins" />
+        <module name="skywalking_mysql" />
+        <module name="skywalking_dubbo_consumer" />
+        <module name="java-agent-demo" />
+        <module name="skywalking_springboot" />
+        <module name="skywalking_springmvc" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="java-agent-demo" target="1.5" />
+      <module name="java_agent_user" target="1.5" />
+      <module name="skywalking_alarm" target="1.8" />
+      <module name="skywalking_dubbo_consumer" target="1.8" />
+      <module name="skywalking_dubbo_provider" target="1.8" />
+      <module name="skywalking_mysql" target="1.8" />
+      <module name="skywalking_plugins" target="1.8" />
+      <module name="skywalking_springboot" target="1.8" />
+      <module name="skywalking_springmvc" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="skywalking_alarm" options="-parameters" />
+      <module name="skywalking_dubbo_consumer" options="-parameters" />
+      <module name="skywalking_dubbo_provider" options="-parameters" />
+      <module name="skywalking_mysql" options="-parameters" />
+      <module name="skywalking_plugins" options="-parameters" />
+      <module name="skywalking_springboot" options="-parameters" />
+    </option>
+  </component>
+</project>
